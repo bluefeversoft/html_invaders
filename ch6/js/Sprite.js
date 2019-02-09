@@ -8,7 +8,7 @@ class Sprite {
     }
 
     addToBoard(shift) {
-        var div = document.createElement("div");
+        let div = document.createElement("div");
         div.classList.add("sprite");
         div.id = this.divName;
         div.style.backgroundImage = "url('" + this.imgName + "')";

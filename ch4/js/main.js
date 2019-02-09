@@ -3,8 +3,8 @@ function init() {
 }
 
 function processAsset(indexNum) {
-    var img = new Image();
-    var fileName = 'assets/' + ImageFiles[indexNum] + '.png';
+    let img = new Image();
+    let fileName = 'assets/' + ImageFiles[indexNum] + '.png';
     img.src = fileName;
     img.onload = function() {
         GameManager.assets[ImageFiles[indexNum]] = {
