@@ -1,0 +1,78 @@
+body {
+	background-color: black;
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;
+}
+
+#playWindow {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#playArea {
+	position: relative;
+    width: 720px;
+	height: 576px;
+	border: solid green 2px;
+	overflow: hidden;
+}
+
+#scoreContainer {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	text-align: left;
+	font-size: 1.5em;
+	z-index: 30;
+}
+
+.score {
+	padding: 10px;
+}
+
+.sprite {
+	position: absolute;
+	z-index: 10;
+}
+
+#messageContainer {
+	position: absolute;
+	top: 200px;
+	text-align: center;
+	width: 100%;
+	z-index: 40;
+}
+
+.message {
+	font-size: 3em;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
